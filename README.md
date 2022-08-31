@@ -1,6 +1,6 @@
 # rpi-spotify-matrix-display
 
-A Spotify display for 64x64 RGB LED matrices
+A Spotify display for 2 64x32 RGB LED matrices
 
 ![emulator screenshot](screenshot.png)
 
