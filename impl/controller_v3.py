@@ -34,8 +34,8 @@ def main():
     # setup matrix
     options = RGBMatrixOptions()
     options.hardware_mapping = config.get('Matrix', 'hardware_mapping', fallback='regular')
-    options.rows = 64
-    options.cols = 32
+    options.rows = 32
+    options.cols = 64
     options.brightness = 100 if isEmulated else config.getint('Matrix', 'brightness', fallback=100)
     options.gpio_slowdown = config.getint('Matrix', 'gpio_slowdown', fallback=1)
     options.limit_refresh_rate_hz = config.getint('Matrix', 'limit_refresh_rate_hz', fallback=0)
